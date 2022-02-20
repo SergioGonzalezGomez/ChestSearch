@@ -9,6 +9,10 @@ body {
 h1 {
     align-self: center;
 }
+
+table {
+    width: 95%;
+}
 tbody {
     text-align: center;
     display: flex;
@@ -17,8 +21,9 @@ tbody {
 
 tr {
     display: flex;
-
     justify-content: center;
+    object-fit: contain;
+    
 }
 
 button {
@@ -29,4 +34,14 @@ button {
     margin: 35px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    width: 100%;
+    
+}
+img {
+    width: 100%;
+    object-fit: contain;
 }
