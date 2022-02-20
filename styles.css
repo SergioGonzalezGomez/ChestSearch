@@ -38,10 +38,10 @@ button {
 td {
     display: table-cell;
     vertical-align: inherit;
-    width: 100%;
+    width: 50%;
     
 }
 img {
-    width: 100%;
+    width: 70%;
     object-fit: contain;
 }
